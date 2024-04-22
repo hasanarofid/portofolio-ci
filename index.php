@@ -9,11 +9,8 @@
 </head>
 <body>
     <?php 
-    $header_footer_json = file_get_contents("header_footer.json");
-    $header_footer_data = json_decode($header_footer_json, true);
-    $header = $header_footer_data['header'];
-    $footer = $header_footer_data['footer'];
-    // var_dump($header);
+    $datajson = file_get_contents("data.json");
+    $datajson = json_decode($datajson, true);
     ?>
     <?php include 'header.php'; ?>
 
@@ -23,8 +20,7 @@
             <div class="home__data">
                 <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Stanley</span><br> Web Developer</h1>
 
-                <a href="#" class="button"><?= $header ?></a>
-                <a href="#" class="button"><?= $footer ?></a>
+                <a href="#" class="button">Contact</a>
             </div>
 
             <div class="home__social">

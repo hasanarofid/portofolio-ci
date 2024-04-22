@@ -1,0 +1,52 @@
+{
+      "menu": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+      },
+
+    "home": {
+      "title": "Hi, I'am Stanley",
+      "subtitle": "Web Developer",
+      "social": [
+        { "icon": "bx bxl-linkedin", "url": "#" },
+        { "icon": "bx bxl-behance", "url": "#" },
+        { "icon": "bx bxl-github", "url": "#" }
+      ],
+      "image": "assets/img/stanley-removebg-crop.png"
+    },
+    "about": {
+      "name": "Stanley Tan Ibrahim",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque."
+    },
+    "skills": {
+      "professional_description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "professional": [
+        { "name": "HTML5", "icon": "bx bxl-html5", "class": "skills__html", "percentage": "95%" },
+        { "name": "CSS3", "icon": "bx bxl-css3", "class": "skills__css", "percentage": "90%" },
+        { "name": "JavaScript", "icon": "bx bxl-javascript", "class": "skills__js", "percentage": "85%" }
+      ],
+      "image": "assets/img/work3.jpg"
+    },
+    "portfolio": [
+      { "image": "assets/img/work1.jpg", "url": "#" },
+      { "image": "assets/img/work2.jpg", "url": "#" },
+      { "image": "assets/img/work3.jpg", "url": "#" }
+    ],
+    "contact": {
+      "name_placeholder": "Name",
+      "email_placeholder": "Email",
+      "message_placeholder": "Message",
+      "submit_button": "Submit"
+    },
+    "footer": {
+        "social": [
+          { "icon": "bx bxl-facebook", "url": "#" },
+          { "icon": "bx bxl-instagram", "url": "#" },
+          { "icon": "bx bxl-twitter", "url": "#" }
+        ]
+      }
+  }
+  

@@ -13,7 +13,7 @@
     $header_footer_data = json_decode($header_footer_json, true);
     $header = $header_footer_data['header'];
     $footer = $header_footer_data['footer'];
-    // var_dump($header);die;
+    // var_dump($header);
     ?>
     <?php include 'header.php'; ?>
 
@@ -23,7 +23,8 @@
             <div class="home__data">
                 <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Stanley</span><br> Web Developer</h1>
 
-                <a href="#" class="button">Contact</a>
+                <a href="#" class="button"><?= $header ?></a>
+                <a href="#" class="button"><?= $footer ?></a>
             </div>
 
             <div class="home__social">
